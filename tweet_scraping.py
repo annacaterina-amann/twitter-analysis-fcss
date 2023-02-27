@@ -15,4 +15,4 @@ for i, tweet in enumerate(sntwitter.TwitterSearchScraper(query).get_items()):
     else:
         tweets.append([tweet.date, tweet.id, tweet.url, tweet.user.username, tweet.sourceLabel, tweet.user.location, tweet.content,tweet.likeCount, tweet.retweetCount])
 df = pd.DataFrame (tweets, columns = ['Date', 'ID', 'url', 'username', 'source', 'location', 'tweet', 'num of likes', 'num of retweets'])
-df.to_csv('scraping.csv')
+df.to_csv('sentiment.csv')
