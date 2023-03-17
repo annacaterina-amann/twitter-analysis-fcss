@@ -1,5 +1,5 @@
 # Social Media Polarization within Tweets on the hashtags “letztegeneration”, “lastgeneration” and “klimakleber”
-This repository contains a Python script that retrieves data and objects from Twitter and generates a CSV file.
+This repository contains a Python script that retrieves data and objects from Twitter and generates a CSV file. There is also a jupyter notebook to perform data analysis on the retreived data.
 
 ## Getting Started
 To get started, you will need to have Python 3 installed on your computer. You can download Python from the official website: [Download Python](https://www.python.org/downloads/).
