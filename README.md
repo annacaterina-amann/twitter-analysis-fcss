@@ -11,5 +11,5 @@ python tweet_scraping.py
 ```
 The script will retrieve the data from the specified URL and generate a CSV file.
 
-##Customizing the Script
+## Customizing the Script
 The script can be easily customized to retrieve different types of data or to generate different types of output. You can modify the query variable to retrieve data from a different hashtag. You can also modify the retrieved Twitter objects as needed.
